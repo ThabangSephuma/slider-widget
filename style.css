@@ -1,0 +1,40 @@
+input[type=range]::-moz-range-thumb {
+
+  width: 25px;
+  height: 25px;
+  border: 0;
+  border-radius: 50%;
+  background: #333333;
+  cursor: pointer;
+  transition: background .15s ease-in-out;
+}
+input[type=range]:: -webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+section {
+  margin-bottom: 50px;
+  font-family: "Helvetica Neue";
+}
+input[type=range]::-moz-focus-outer {
+  border: 0;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  text-align: "center";
+}
+.homesavings {
+  background-color: red;
+}
+.propertyPrice {
+  color: red;
+  margin: 0px 0px -25px 0px;
+}
+.value {
+  width: 93px;
+}
+.valueMax {
+
+}
+.amount {
+  text-align: center;
+}
