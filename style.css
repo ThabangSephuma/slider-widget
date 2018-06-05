@@ -1,3 +1,6 @@
+body {
+  overflow: hidden;
+}
 input[type=range]::-moz-range-thumb {
 
   width: 25px;
